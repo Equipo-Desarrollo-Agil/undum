@@ -79,7 +79,21 @@ undum.game.situations = {
         \
         <p><a href='Escena4'>No, es imposible que fuera ella…</a>Debería seguir analizando el caso.</p>"
       ),
-
+      Escena3: new undum.SimpleSituation(
+        "<p>Al ver que sus dotes como detective privado no son buenos, ya que se equivocó\
+        en la prueba de superación, Robertina decide <a href='start'>volver a hacerle la pregunta</a>\
+        o <a href='EscenaFinal'>buscar otro detective privado.</a></p>"
+      ),
+      Escena4: new undum.SimpleSituation(
+        "<h1>Escena del crimen</h1>\
+        <img src='media/games/tutorial/lugarcrimen.jpeg' width = 450 heigth = 225>\
+        <p>Llego al lugar del asesinato, empiezo a <a href='Escena7'>registrar</a> todo lo que encontraba\
+        por la zona, ya que estaba llena de pruebas y me podía servir de gran ayuda\
+        para resolver mi crimen perfecto. Aunque se me pasó por la cabeza que podía\
+        <a href='Escena6'>preguntarle al barrendero</a> que siempre pasaba por la puerta del trabajo de la víctima,\
+        para ver si había visto algo cuando sucedió el crimen.\
+        Al no quedarme muy conforme decido <a href='Escena2'>volver al despacho</a> a volver a leer la carta.</p>"        "
+      ),
 
 };
 
