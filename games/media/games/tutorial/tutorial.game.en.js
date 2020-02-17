@@ -29,22 +29,22 @@ undum.game.slideUpSpeed = 500
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
     start: new undum.SimpleSituation(
-        "<h1>Starting Out with Undum</h1>\
-        <img src='media/games/tutorial/woodcut1.png' class='float_right'>\
-        <p>Welcome to the Undum tutorial. Undum is a tool for writing\
-        hypertext interactive fiction. It has some unique features\
-        and a visual design that encourages narrative games.</p>\
+        "<h1>Despacho del detective</h1>\
+        <img src='media/games/tutorial/despacho.png' width = 450 heigth = 225>\
+        <p>Es una calurosa tarde de junio, estas revisando el correo cuando,\
+        de repente, te llega un nuevo email, en el que dice lo siguiente: </p>\
         \
-        <p>Hypertext interactive fiction is the digital equivalent of the\
-        Choose Your Own Adventure (CYOA) books that were popular in the\
-        1980s. The story is told in chunks, and you select from a range\
-        of options to move it forward. Unlike the book form, however, the\
-        digital form gives you far more flexibility to tell rich stories\
-        and introduce more interesting game elements.</p>\
+        <p><i><b>Estimado detective, me llamo Robertina y me gustaría contratar\
+        sus servicios pero dado que soy una persona muy desconfiada, prefiero\
+        hacerle yo mismo una prueba para comprobar su gran destreza\
+        detectivesca antes de exponerle mi caso, y la pregunta es \
+        esta:</b></i></p>\
         \
-        <p class='transient'>Click <a href='hub'>this link to\
-        continue...</a></p>"
-    ),
+        <p><i> No hablo ni oigo pero siempre digo la verdad,\
+         ¿Quien soy?</i></p>\
+        <p><a href='Escena3'>Esto es una perdida de tiempo lo dejo.</a></p>\
+        <p><a href
+  ),
 
     // NB: The 'hub' situation which is the main list of topics, is
     // defined wholly in the HTML file, and doesn't have an entry in
